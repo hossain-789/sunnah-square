@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 li,
@@ -13,6 +13,7 @@ a {
 
 :root {
     --primary-font-color: #192A3D;
+    --primary-background-color: #192A3D;
     --footer-font-color: #3A4F66;
     --text-color-white: #ffffff;
     --text-black-color: #000000;
@@ -29,7 +30,19 @@ a {
 /* top-start */
 .top-primary-background {
     background: var(--background-color);
-    height: 50px;
+    height: 60px;
+}
+
+
+.top-social-icon li>a {
+    color: var(--text-color-white);
+}
+
+/* top-end */
+
+/* navber-top-start */
+.navbar-nav a {
+    font-size: 14px;
 }
 
 .navber-togg-button:focus {
@@ -37,13 +50,42 @@ a {
     outline: 0;
 }
 
-.top-social-icon a {
-    color: var(--text-color-white);
+.navbar-nav li:hover>ul.dropdown-menu {
+    display: block;
 }
 
-/* top-end */
+.dropdown-submenu {
+    position: relative;
+}
 
-/* navber-top-start */
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    margin-top: -8px;
+    left: 100%;
+    margin-left: 4px;
+}
+
+.dropdown-menu>li>a {
+    color: var(--text-color-white);
+    font-size: 14px;
+    border-bottom: 1px solid #0A0446;
+    padding: 10px;
+}
+
+.dropdown-menu>li>a:hover::after {
+    transform: rotate(-90deg);
+}
+
+.dropdown-menu>li>a:hover {
+    color: var(--btn-hover-color);
+    background-color: var(--primary-background-color);
+}
+
+
+.nav-dropdown-back-color {
+    background: var(--primary-background-color);
+}
+
 .navber-account-button {
     border: 2px solid var(--text-black-color);
     color: var(--text-black-color);
@@ -89,7 +131,7 @@ a {
 }
 
 .social-post-image-box img:hover {
-    transform: scale(0.9);
+    margin-top: -5px;
 }
 
 /* social-banner-post-end */
@@ -228,8 +270,8 @@ a {
     font-size: 35px;
     margin: auto;
     top: 50%;
-    left: 45%;
-    right: 55%;
+    left: 47%;
+    right: 53%;
     bottom: 50%;
 
 }
@@ -306,12 +348,12 @@ span {
     font-size: 13px;
 }
 
-.footer-social-media-icon a{
+.footer-social-media-icon a {
     color: var(--footer-font-color);
     font-size: 14px;
 }
 
-.footer-copyright p{
+.footer-copyright p {
     font-size: 14px;
     color: var(--footer-font-color);
 }
