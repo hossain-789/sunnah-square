@@ -359,3 +359,19 @@ span {
 }
 
 /* sunnah-square-footer-end */
+
+
+/* ~~ categories ~~ */
+
+/* categories-filter-offer-start */
+.categories-product-parallax {
+    background-image: url("../image/banner/1-12.webp");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* categories-filter-offer-end*/
