@@ -16,6 +16,7 @@ a {
     --primary-background-color: #192A3D;
     --footer-font-color: #3A4F66;
     --text-color-white: #ffffff;
+    --border-buttom: #dedede;
     --text-black-color: #000000;
     --background-color: #621613;
     --second-background-color: #FFF6F6;
@@ -108,20 +109,36 @@ a {
     background-color: var(--center-body-bgcolor);
 }
 
-.product-categories-list a {
+.product-categories-list img {
+    width: 12%;
+    border-radius: 50px;
+}
+
+.product-categories-list li>a {
     font-size: 13px;
-    font-weight: 500;
-    border-bottom: 1px solid rgba(0, 0, 0, .123);
-    padding: 12px 0;
 }
 
-.product-categories-list a {
-    transition: 0.7s ease;
+.product-categories-list ul {
+    padding-left: 0px;
 }
 
-.product-categories-list a:hover {
+.product-categories-list ul>li {
+    margin: 10px;
+    border-bottom: 1px solid var(--border-buttom);
+
+}
+
+.product-categories-list span {
+    margin-left: 8px;
+}
+
+.product-categories-list li>a {
+    transition: 0.5s ease;
+}
+
+.product-categories-list li>a:hover {
     margin-left: 10px;
-}
+} 
 
 /* center-body-end */
 
