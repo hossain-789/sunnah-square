@@ -21,6 +21,7 @@ a {
     --background-color: #621613;
     --second-background-color: #FFF6F6;
     --center-body-bgcolor: #FAFBFC;
+    --footer-background: #F2F5F7;
     --btn-hover-color: #0D6EFD;
     --btn-color: #123563;
     --border-btn: #FE506C;
@@ -347,6 +348,10 @@ span {
 /* sunnah-square-services-end */
 
 /* sunnah-square-footer-strat */
+.footer-body-background {
+    background: var(--footer-background);
+}
+
 .sunnah-square-footer {
     padding-top: 60px;
 }
@@ -416,3 +421,46 @@ span {
     color: var(--text-black-color);
     font-size: 14px;
 }
+
+/* my-account-start */
+.user-parson-info {
+    font-size: 15px;
+}
+
+.form-my-account {
+    background: none;
+}
+
+/* my-account-start */
+
+
+/* privacy-policy-start */
+
+.privacy-search-bar {
+    width: 400px;
+    height: 40px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.privacy-search-bar>i {
+    font-size: 15px;
+    color: #777;
+
+}
+.privacy-search-bar>input {
+    font-size: 14px !;
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+/* privacy-policy-end */
