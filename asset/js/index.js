@@ -8,3 +8,4 @@ document.getElementById('getResetPasswod').addEventListener('click', () => {
         document.getElementById('subscribError').innerHTML = '<i class="bi bi-bell"></i> Invalid username or email.';
     }
 })
+

@@ -452,6 +452,7 @@ span {
     color: #777;
 
 }
+
 .privacy-search-bar>input {
     font-size: 14px !;
     flex: 1;
@@ -464,3 +465,22 @@ span {
 
 
 /* privacy-policy-end */
+
+
+/* chat-tab-start */
+.cart-quantity {
+    font-size: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    width: 50%;
+    display: flex;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.cart-quantity>minus>plus {
+    cursor: pointer;
+}
+
+
+/* chat-tab-end */
