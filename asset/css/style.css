@@ -484,3 +484,43 @@ span {
 
 
 /* chat-tab-end */
+/* procutct-accessories-start */
+.product-futures i {
+    color: green;
+}
+
+.nav-product-review button {
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 20px;
+    font-size: 12px;
+
+}
+
+.nav-product-review button::after {
+    content: "";
+    position: absolute;
+    background-color: var(--footer-font-color);
+    height: 2px;
+    width: 0px;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.5s;
+}
+
+.nav-product-review button:hover::after {
+    width: 100%;
+}
+
+/* end */
+
+/* checkout-section */
+.form-control-title {
+    font-size: 14px;
+}
+
+.form-control-star {
+    color: var(--danger);
+}
+
+/* end */
